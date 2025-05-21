@@ -5,7 +5,7 @@ def decode(secret):
 
 def reveal_the_secret():
     print("🔐 Accessing encrypted system logs...")
-    time.sleep(1)
+    time.sleep(5)
     print("🧠 Decoding messages from the Python realm...\n")
     time.sleep(2)
 

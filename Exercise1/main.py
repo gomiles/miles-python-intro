@@ -15,7 +15,7 @@ adjusted_consumption = []
 for hour in range(len(consumption)):
     # Intended logic: apply a 20% surcharge during peak hours (hour 2 and 3)
     # However, this condition does not behave as expected.
-    if hour == 2 or 3:
+    if hour == 2 or hour == 3:
         adjusted = consumption[hour] * 1.2
     else:
         adjusted = consumption[hour]
@@ -37,7 +37,7 @@ total = sum(adjusted_consumption)
 # Adjusted consumption per hour:
 #   [1000, 1200, 1800.0, 1560.0, 1100]
 # Total adjusted consumption:
-#   6560.0 kWh
+#   6660.0 kWh
 #
 # Print the result
 print("Adjusted consumption per hour:", adjusted_consumption)
