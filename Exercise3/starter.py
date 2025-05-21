@@ -23,6 +23,7 @@
 # 9. Test the script to ensure the line plot accurately represents the data, adjusting as needed
 #    for clarity and visibility.
 
+DATA_PATH = "./Exercise3/energy_consumption.csv"
 
-# (optional - for highperformer)
-# if you are done and need a additional challenge, try to smoothen the data and calculate the moving average of 30 days and plot it.
+#PUT SOLUTION HERE
+
