@@ -15,7 +15,7 @@ adjusted_consumption = []
 for hour in range(len(consumption)):
     # Intended logic: apply a 20% surcharge during peak hours (hour 2 and 3)
     # However, this condition does not behave as expected.
-    if hour == 2 or hour == 3:
+    if hour == 2 or 3:
         adjusted = consumption[hour] * 1.2
     else:
         adjusted = consumption[hour]
