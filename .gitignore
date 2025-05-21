@@ -1,2 +1,4 @@
 solution.py
 generator.py
+.venv
+.DS_Store
